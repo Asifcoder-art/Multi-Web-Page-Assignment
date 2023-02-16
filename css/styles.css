@@ -1,0 +1,436 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+.nav-icon{
+    display: flex;
+    gap: 50px;
+}
+
+.beats-logo{
+    height: 2em;
+   }
+   
+   .main-image{
+       height: 40em;
+       position: relative;
+       top: -250px;
+       left: 400px;
+   }
+
+ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.shop{
+    background-color: #20262E;
+    padding: 5px 20px;
+    margin-left:20px ;
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+    align-items: flex-start;
+}
+
+.main-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main-sec img{
+    width: 500px;
+    margin-left:70px;
+}
+
+p{
+    color: white;
+    width: 49%;
+    line-height:2;
+}
+h4{
+    color: white;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+
+span{
+    color: #ffffff;
+}
+
+.bag{
+    position: absolute;
+    top: 620px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #20262E;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+/* Social Websites */
+
+.social-website{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+/* specs */
+
+.specs{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* bluetooth icon */
+
+
+.bluetooth{
+    margin-left: 400px;
+}
+.bluetooth h4 {
+ margin: 0;
+ color: #ffffff;
+}
+.bluetooth p{
+    margin: 0;
+}
+.bluetooth img{
+    width: 20px;
+    
+}
+
+/* Battery */
+
+.battery{
+    margin-top: 20px;
+    margin-left: 300px ;
+}
+
+.battery h4{
+    margin: 0;
+}
+
+.battery p{
+    margin: 0;
+}
+
+/* charger */
+.charger{
+    margin-top: 20px;
+    margin-left: 300px ;
+}
+
+.charger h4{
+    margin: 0;
+}
+
+.charger p{
+    margin: 0;
+}
+
+.mic{
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.mic h4 {
+ margin: 0;
+ color: #ffffff;
+}
+.mic p{
+    margin: 0;
+    width: 12%;
+}
+
+.specs-image{
+    position: relative;
+    left: 700px;
+    top: -400px;
+}
+
+/* case */
+.case{
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    top: -250px;
+
+}
+.case-2{
+    display: flex;
+    gap: 100px;
+    justify-content:flex-end;
+    position: relative;
+    top: -150px;
+    left: 100px;
+}
+
+.case-2-intro{
+    margin-top: 100px;
+}
+
+.case-2-intro p{
+    width: 30%;
+}
+
+.case-2-intro button{
+    background-color: #20262E;
+
+}
+button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color:#000000;
+    padding: 10px 30px;
+border-radius: 5px;
+}
+
+/* Buy-now */
+
+.buy-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 50vh;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #20262E;
+    border-radius: 10px;
+
+}
+
+.buy-now-left{
+    /* margin-left: 100px; */
+}
+
+
+.buy-now-image{
+    width: 40%;
+}
+
+.buy-now h4{
+    width: 65%;
+    margin: 0;
+}
+
+.multiple-image{
+    margin-top: 50px;
+    text-align: center;
+}
+ .multiple-image img{
+    width: 15%;
+ }
+
+ /* Choose your style */
+
+ .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    row-gap: 20px;
+ }
+ 
+ .box-1,.box-2, .box-3, .box-4, .box-5{
+    width: 200px;
+    height: 200px;
+    background-color: #20262E;
+    margin: 20px;
+    border-radius: 10px;
+
+ }
+
+ .box-1{
+    position: relative;
+    left: 400px;
+ }
+
+ .box-2{
+    position: relative;
+    right: 90px;
+ }
+
+ .box-3{
+    position: relative;
+    left: 400px;
+ }
+
+ .box-4{
+    position: relative;
+    right: 90px;
+ }
+
+ .box-5{
+    position: relative;
+    left: 400px;
+ }
+
+ .image-1{
+    width: 80px;
+    position: relative;
+    left: 60px;
+    top: -40px;
+ }
+
+ span{
+    color: #ffffff;
+ }
+
+ .description{
+    display: flex;
+ }
+
+ .description p{
+    width: 20%;
+    line-height: 20px;
+    margin-left: 20px;
+ }
+
+ .bag-1{
+    position: relative;
+    left: 90px;
+    top:30px;
+    height: 30px;
+    background-color: #000000;
+    padding : 5px 10px;
+    border-radius: 5px;
+
+ }
+
+ .bag-1 img{
+    margin-top: 3px;
+ }
+
+/* Red black headphone */
+.box-2 .description p{
+    width: 50%;
+}
+
+.bag-2{
+    position: relative;
+    left: 30px;
+    top:30px;
+    height: 30px;
+    background-color: #000000;
+    padding : 5px 10px;
+    border-radius: 5px;
+
+ }
+
+ /* night-black headphone */
+ .box-3 .description p{
+    width: 50%;
+}
+
+.box-4 .description p{
+    width: 50%;
+}
+
+/* twilight grey haedphone */
+.box-5 .description p{
+    width: 50%;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+footer img{
+    margin-top: 50px;
+    height: 2em;
+    margin-left: 20px;
+
+}
+
+.footer-product ul{
+    display:flex ;
+    flex-direction: column;
+}
+
+.support ul{
+    display: flex;
+    flex-direction: column;
+}
+
+/* email-box */
+.social-media-account{
+    margin-top: 30px;
+}
+.email{
+    display: flex;
+    background-color: #20262E;
+    padding: 5px 0;
+    border-radius: 15px;
+ 
+}
+
+.email button{
+    position: relative;
+    left: 200px;
+    border-radius: 15px;
+    padding: 0 30px;
+    
+
+}
+
+.email button img{
+    position: relative;
+    bottom: 24px;
+    right: 30px;
+}
+ 
+.email p {
+    margin-left: 10px;
+}
+
+.coonnect-social-media{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+.coonnect-social-media img{
+    width: 40px;
+    height: 35px;
+}
